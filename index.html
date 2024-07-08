@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UGEL - Student Advocacy</title>
+    <title>UGEL</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,6 +18,27 @@
             color: white;
             padding: 1rem 0;
             text-align: center;
+            position: relative;
+        }
+        header .slogan {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 1rem;
+            background-color: #333;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
         }
         main {
             padding: 2rem;
@@ -50,7 +71,12 @@
 
 <body>
     <header>
-        <h1>UGEL - Student Advocacy</h1>
+        <h1>UGEL</h1>
+        <p class="slogan">حرية، وحدة، عمل</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
 
     <main>
