@@ -12,13 +12,15 @@
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: #4CAF50;
             color: white;
             padding: 1rem 0;
             text-align: center;
-            position: relative;
         }
         header .slogan {
             font-size: 1.2rem;
@@ -34,13 +36,12 @@
             text-decoration: none;
             padding: 0.5rem 1rem;
             margin: 0 1rem;
-            background-color: #333;
-            border-radius: 5px;
         }
         nav a:hover {
-            background-color: #555;
+            text-decoration: underline;
         }
         main {
+            flex: 1;
             padding: 2rem;
             max-width: 800px;
             margin: 0 auto;
@@ -84,9 +85,6 @@
             color: white;
             text-align: center;
             padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
@@ -107,19 +105,4 @@
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <input type="submit" value="Submit">
-        </form>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 UGEL - All Rights Reserved</p>
-    </footer>
-</body>
-
-</html>
+            <label for="em
